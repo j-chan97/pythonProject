@@ -3,7 +3,6 @@
 def first_unique_character(s):
     slen = len(s)
     dictionary = {}
-
     for char in s:
         if char not in dictionary:
             dictionary[char] = 1
